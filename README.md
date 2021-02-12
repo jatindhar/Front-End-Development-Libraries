@@ -1,1 +1,1 @@
-# ```All coding solutions here```
+# ```All coding solutions here!```
