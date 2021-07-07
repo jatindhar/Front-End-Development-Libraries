@@ -1,0 +1,38 @@
+<style type='text/scss'>
+// Change Code Here
+@each $color in blue, black, red {
+  .#{$color}-bg {background-color: $color;}
+}
+// Change Code Here
+
+  div {
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div class="blue-bg"></div>
+<div class="black-bg"></div>
+<div class="red-bg"></div>
+
+
+
+
+The solution above will generate the following CSS:
+
+.blue-bg {
+   background-color: blue;
+ }
+ 
+.black-bg {
+   background-color: black;
+ }
+ 
+.red-bg {
+   background-color: red;
+ }
+ 
+div {
+  height: 200px;
+  width: 200px;
+}
